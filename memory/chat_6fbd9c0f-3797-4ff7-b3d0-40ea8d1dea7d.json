@@ -1,0 +1,16 @@
+[
+  {
+    "role": "user",
+    "content": "what is my name ?",
+    "timestamp": "2025-08-07T15:03:06.491427",
+    "metadata": {}
+  },
+  {
+    "role": "assistant",
+    "content": "I'm unable to determine your name since you haven’t shared it with me, and I don’t have access to personal information. If you'd like me to address you by a specific name, feel free to let me know!",
+    "timestamp": "2025-08-07T15:03:06.493467",
+    "metadata": {
+      "sources": []
+    }
+  }
+]

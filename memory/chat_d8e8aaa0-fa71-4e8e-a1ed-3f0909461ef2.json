@@ -1,0 +1,16 @@
+[
+  {
+    "role": "user",
+    "content": "hi",
+    "timestamp": "2025-08-07T15:02:58.033783",
+    "metadata": {}
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! How can I assist you today? Are you looking for information related to Amazon's financial performance, investor relations, or something else?",
+    "timestamp": "2025-08-07T15:02:58.040371",
+    "metadata": {
+      "sources": []
+    }
+  }
+]

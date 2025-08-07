@@ -27,8 +27,8 @@ if 'web_search' not in st.session_state:
     st.session_state.web_search = WebSearchTool()
 
 def main():
-    st.title("🔬 AI Research Assistant")
-    st.subheader("Your intelligent companion for research, document analysis, and knowledge discovery")
+    st.title("🔬 Amazon Financial Insights Chatbot")
+    st.subheader("AI-powered financial analyst for Amazon investor insights")
     
     # Sidebar for configuration
     with st.sidebar:
@@ -215,4 +215,5 @@ def should_use_web_search(prompt: str) -> bool:
     return any(indicator in prompt.lower() for indicator in web_search_indicators)
 
 if __name__ == "__main__":
+
     main()

@@ -9,8 +9,8 @@ import uuid
 
 # Page configuration
 st.set_page_config(
-    page_title="AI Research Assistant",
-    page_icon="🔬",
+    page_title="AI Assistant Chatbot",
+    page_icon="🤖",
     layout="wide"
 )
 
@@ -27,7 +27,7 @@ if 'web_search' not in st.session_state:
     st.session_state.web_search = WebSearchTool()
 
 def main():
-    st.title("🔬 Amazon Financial Insights Chatbot")
+    st.title("🔍 Amazon Financial Insights Chatbot")
     st.subheader("AI-powered financial analyst for Amazon investor insights")
     
     # Sidebar for configuration
@@ -217,3 +217,4 @@ def should_use_web_search(prompt: str) -> bool:
 if __name__ == "__main__":
 
     main()
+
